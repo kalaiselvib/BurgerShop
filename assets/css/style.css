@@ -1,0 +1,448 @@
+.text-orange{
+color: var(--var-orange);
+}
+.text-grey{
+color: var(--var-grey);
+}
+.bg-red{
+background-color: var(--var-red);
+}
+.px-100{
+    padding: 0px 100px;
+}
+p.text-muted{
+color: #989797;
+line-height: 40px;
+font-weight: 400 !important;
+}
+p.text-bold{
+font-family: 'Jost', sans-serif;
+font-weight: 600;
+}
+body{
+    overflow-x: hidden !important; 
+}
+button.btn{
+width: 220px;
+height: 65px;
+padding: .5rem 2.5rem;
+border-radius: 30px;
+color: #fff;
+}
+.hero button.btn{
+width: 220px;
+height: 65px;
+padding: .5rem 2.5rem;
+border-radius: 30px;
+color: #fff;
+position: absolute;
+bottom: 5%;
+left: 45%;
+}
+button.btn:hover{
+background-color: transparent;
+border: 1px solid #fff;
+box-shadow: none;
+color: #fff;
+transition-duration: .3s;
+}
+button.btn-md{
+width: 150px;
+height: 45px;
+padding: .5rem .5rem;
+font-size: 13px ;
+}
+button.btn-md:hover{
+background-color: #fe3939 !important;
+color: #fff;
+transition: 0.3s;
+}
+a.btn-sm{
+width: 100px;
+height: 35px;
+padding: 0.2rem 1rem;
+font-size: 12px ;
+font-weight: 600 ;
+border-radius: 10px;
+font-family: 'Jost', sans-serif;
+}
+
+html {
+    overflow-x: hidden; 
+}
+.wrapper .hero{
+height: 100vh;
+position: relative;
+}
+.overlay{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.9);
+}
+.wrapper header {
+margin: 40px 0px;
+}
+.wrapper header ul#main-navigation-menu {
+list-style: none;
+margin-top: 20px;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.wrapper header ul#main-navigation-menu li a{
+color: #fff;
+font-weight: 600;
+font-size: 15px;  
+}
+.wrapper .hero-content{
+margin-top: 100px;
+}
+.wrapper .hero-content .hero-text .caption{
+font-size: 4rem;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+line-height: 50px;
+}
+.wrapper .hero-content .hero-text .item-name{
+font-size: 11rem;
+letter-spacing: 3px;
+margin-top: -3rem;
+font-family: 'Jost', sans-serif;
+}
+.wrapper .hero-content .hero-image{
+padding: 100px;
+margin-top: -380px !important;
+}
+.wrapper .content-section{
+padding: 150px 100px 50px;
+}
+.wrapper .content-section .section-image img{
+border-radius: 20px;
+ 
+}
+.wrapper .content-section .section-text *{
+margin-bottom: 30px;
+}
+.wrapper  .heading{
+font-family: 'Jost', sans-serif;
+width: 600px;
+}
+.wrapper  h1.heading{
+font-size: 3.5rem;
+}
+.wrapper  h2{
+font-size: 2.5rem;
+
+}
+.wrapper .content-section .section-text .grams-container .gram{
+border-radius: 15px;
+border: 1px solid  var(--var-grey);
+width: 100px;
+padding: 5px 5px;
+font-size: 15px;
+text-align: center;
+margin-right: 30px;
+font-family: 'Jost', sans-serif;
+font-weight: 500;
+}
+.wrapper .content-section .section-text p{
+width: 600px;
+font-size: 1.1rem;
+}
+.wrapper .content-section .item-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.wrapper .content-section .item-container .item {
+background-color: #fbf8f6;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Jost', sans-serif;
+width: 265px;
+margin-top: 20px;
+
+}
+.wrapper .content-section .item *{
+margin:20px 0px;
+}
+.wrapper .content-section  .item-name{
+font-size: 1.2rem;
+padding: 0px 40px;
+text-align: center;
+}
+.wrapper .content-section .price{
+background-color: var(--var-red);
+padding: 5px 15px;
+border-radius: 20px;
+color: #fff;
+font-size: 1rem;
+font-family: 'Jost', sans-serif;
+font-weight: 500;
+}
+.wrapper .content-section .section-text .price{
+font-size: 2.5rem;
+}
+.wrapper .deals-section {
+height: 150vh;
+position: relative;
+}
+.wrapper .content-section .menu-item-container {
+display: flex;
+margin: 30px 0px;
+}
+.wrapper .content-section .menu-item-container .menu-item {
+    padding: 0px 20px;
+    background-color: #fbf8f6;
+    margin :0px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.wrapper .content-section .menu-item-container .menu-item *{
+    margin: 20px 0px;
+}
+.wrapper .content-section .menu-item-container .menu-item-name{
+font-size: 1.5rem;
+text-align: left;
+font-weight: 400 !important;
+font-family: 'Jost', sans-serif;
+}
+.wrapper .contact-section h4{
+   font-family: 'Jost', sans-serif; 
+}
+.wrapper .contact-section p , li{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.wrapper .contact-section .social-media i{
+    font-size: 25px;
+}
+.wrapper .contact-section form .form-input ,button{
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+.content-section img{
+    width: 100%;
+}
+.wrapper .hero{
+height: 50vh;
+}
+.wrapper header {
+margin: 20px 0px;
+}
+.wrapper .hero-content{
+margin-top: 0px;
+}
+.wrapper .hero-content .hero-text .caption{
+font-size: 3rem;
+line-height: 50px;
+}
+.wrapper .hero-content .hero-text .item-name{
+font-size: 7.5rem;
+letter-spacing: 3px;
+margin-top: -3rem;
+
+}
+.wrapper .hero-content .hero-image{
+padding: 0px;
+margin-top: -120px !important;
+height: 500px;
+width: 500px;
+}
+.wrapper .hero-content .hero-image img{
+    height: 100%;
+    width: 100%;
+}
+.wrapper .content-section{
+padding: 75px 50px 25px;
+}
+.wrapper .content-section .section-image img{
+  width: 100%;
+}
+.wrapper  .heading{
+width: 100%;
+}
+.wrapper h1.heading {
+    font-size: 2rem;
+}
+.wrapper .content-section .item-container .item {
+    width: 200px;
+}
+.wrapper .deals-section {
+height: 80vh;
+
+}
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+.wrapper .hero{
+height: 100vh;
+}
+.wrapper .deals-section {
+height: 150vh;
+
+}
+.wrapper .content-section{
+padding: 75px 50px 25px;
+}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1024px) 
+  and (orientation: portrait) 
+  {
+.wrapper .hero{
+height: 60vh;
+}
+.wrapper header {
+margin: 20px 0px;
+}
+.wrapper .hero-content{
+margin-top: 0px;
+}
+.wrapper .hero-content .hero-text .caption{
+font-size: 3rem;
+line-height: 50px;
+}
+.wrapper .hero-content .hero-text .item-name{
+font-size: 7.5rem;
+letter-spacing: 3px;
+margin-top: -3rem;
+}
+.wrapper .hero-content .hero-image{
+padding: 0px;
+margin-top: -120px !important;
+height: 400px;
+width: 400px;
+}
+.wrapper .hero-content .hero-image img{
+    height: 100%;
+    width: 100%;
+}
+.wrapper .content-section{
+padding: 35px 60px 25px;
+}
+.content-section .section-text * {
+    margin-bottom: 10px;
+}
+.wrapper .content-section .item-container {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.wrapper .content-section .section-image img{
+  width: 100%;
+}
+.wrapper  .heading{
+width: 100%;
+}
+.wrapper h1.heading {
+    font-size: 2rem;
+}
+.wrapper .content-section .item-container .item {
+    width: 100%;
+}
+.wrapper .deals-section {
+height: 80vh;
+}
+.wrapper .deals-section img{
+    width: 100%;
+}
+.wrapper .content-section .menu-item-container {
+    flex-direction: column;
+}
+.wrapper .content-section .menu-item-container .menu-item{
+    margin: 20px 0px;
+}
+.wrapper .content-section .menu-item-container .menu-item-name{
+    text-align: center; 
+}
+.px-100{
+    padding: 0px 50px;
+}
+
+}
+@media only screen 
+  and (min-width: 1280px) 
+  and (max-height: 950px) 
+ {
+  .section-image img {
+        width: 100%;
+ }
+ .deals-section img{
+        width: 100%;
+ }
+ .wrapper .content-section {
+         padding: 75px 10px 25px;
+ }
+ .wrapper .content-section .menu-item-container .menu-item {
+    padding: 0px 5px;  
+    margin :0px 5px;
+ }
+}
+@media only screen 
+  and (max-width: 768px) {
+ .section-image img {
+        width: 100%;
+ }
+ .deals-section img{
+        width: 100%;
+ }
+ .wrapper .content-section{
+padding: 35px 10px 25px;
+
+}
+.wrapper .hero{
+height: 50vh;
+}
+.wrapper header {
+margin: 20px 0px;
+}
+.wrapper .hero-content{
+margin-top: 0px;
+}
+.wrapper .hero-content .hero-text .caption{
+font-size: 1.5rem;
+line-height: 50px;
+}
+.wrapper .hero-content .hero-text .item-name{
+font-size: 3.5rem;
+letter-spacing: 3px;
+margin-top: -3rem;
+}
+.wrapper .hero-content .hero-image{
+padding: 0px;
+margin-top: -64px !important;
+height: 200px;
+width: 200px;
+}
+.wrapper .hero-content .hero-image img{
+    height: 100%;
+    width: 100%;
+}
+.wrapper h1.heading {
+    font-size: 1rem;
+}
+
+  }
